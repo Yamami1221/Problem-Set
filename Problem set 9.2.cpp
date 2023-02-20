@@ -8,7 +8,7 @@ int main() {
     int min, max, count = 0;
     string text;
     ifstream source;
-    source.open("score.txt");
+    source.open("scorefor9.2.txt");
     if (source.fail()) {
         cout << "File open failed. " << endl;
         return EXIT_FAILURE;
